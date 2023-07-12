@@ -1,0 +1,101 @@
+body{
+    font-family: sans-serif;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2022/04/timon-klauser-3MAmj1ZKSZA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    
+}
+h1{
+    text-align: center;
+    font-weight: 120px;
+    
+}
+#description{
+    text-align: center;
+    font-style: italic;
+    
+
+}
+label, input, select, textarea, p{
+    display: block;
+    padding: 10px
+    
+    
+}
+input, select {
+    border-radius: 5px;
+}
+
+
+ .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+
+
+textarea{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#definitely, #maybe, #not-sure{
+    display: inline;
+}
+#front-end-checkbox, #back-end-checkbox, #data-vis-checkbox, #challenges-checkbox, #open-source-checkbox, #gitter-help-checkbox, #videos-checkbox, #city-meetups-checkbox, #wiki-checkbox, #forum-checkbox, #additional-checkbox{
+    display: inline;
+}
+#box{
+    color: white;
+    width: 80%;
+    background-color: rgba(44, 42, 70, 0.95);
+    margin-left: auto;
+    margin-right: auto;
+   
+    padding: 30px;
+    max-width: 680px;
+    border-radius: 5px;
+}
+
+  input,
+  textarea,
+  select, p {
+    margin: 10px 0 0 0;
+    
+    width: 96%;
+    min-height: 2em;
+    
+    
+  }
+
+  select{
+    margin: 10px 0 0 0;
+    
+    width: 99%;
+    min-height: 3em;
+    color: rgb(117, 117, 117);
+    
+    
+    
+  }
+
+input[type="submit"] {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(55, 175, 101);
+    border: none;
+    color: white;
+    min-width: 165px;
+    
+    
+    
+  }
